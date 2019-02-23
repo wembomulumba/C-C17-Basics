@@ -14,7 +14,7 @@ int main() {
     int intNumberGuessed = 0;
 
     do {
-        cout << "Guess between 1 and 10 : ";
+        cout << "Guess A Number between 1 and 10 : ";
         getline(cin , numberofGuessed);
 
         intNumberGuessed = stoi(numberofGuessed);
