@@ -1,16 +1,21 @@
 #include <fstream>
 #include <iostream>
 
+// C++ Program to read from a file containing numbers
+// to the some of those numbers
+
 using namespace std;
 
 int main() {
 
    
    string line;
-   ifstream myfile ("example3.txt");
+   ifstream myfile ("example3.txt"); // path of the file containing numbers
    int sum = 0;
    int totalb = 0;
 
+   openin
+      // check if the file is open
    if(myfile.is_open()){
        while (getline(myfile, line)){
            cout << line << ' ';
