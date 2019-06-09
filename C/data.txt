@@ -1,0 +1,5 @@
+Hxample 8: Simple I/O mapping
+ The file, passed at command-line (argv[1]), is opened and then memory
+mapped using the mmap() system call
+ mmap() needs the address, the region size (file length), the permissions,
+the scope flags, file descriptor and offset
